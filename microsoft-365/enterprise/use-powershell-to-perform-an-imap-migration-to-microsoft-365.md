@@ -228,7 +228,7 @@ For more information about the **Remove-MigrationBatch** cmdlet, see[Remove-Migr
 Run the following command in Exchange Online PowerShell to display information about the "IMAPBatch1":
 
 ```powershell
-Get-MigrationBatch IMAPBatch1"
+Get-MigrationBatch "IMAPBatch1"
 ```
 
 The command will return either the migration batch with a status of **Removing**, or it will return an error stating that migration batch couldn't be found, verifying that the batch was deleted.
